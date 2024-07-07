@@ -85,25 +85,24 @@ body {
     }
 
     .qualification-card li {
-        font-size: 20px;
-        margin-left: 10px;
+        font-size: 15px;
+        margin-left: 5px;
     }
 
 /* work experience */
 
 .work_ex-container {
-    margin-top: 30px;
-    margin-left: 60px;
+    justify-content: center;
 }
 
     .work_ex-container hr {
         border: 1px solid lightgray;
-        width: 75%;
-        margin-left: 5cm;
+        width: 100%;
+        
     }
 
 .work_ex-card {
-    margin: 0 15px 15px 30px;
+    margin: auto;
     padding-bottom: 5px;
 }
 
@@ -118,9 +117,9 @@ body {
     }
 
     .work_ex-card li {
-        font-size: 20px;
+        font-size: 15px;
         text-align: justify;
-        margin-left: 30px;
+        margin-left: 5px;
     }
 
 /*Scroll container images*/
