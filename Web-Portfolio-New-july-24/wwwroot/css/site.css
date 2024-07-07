@@ -1,0 +1,136 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+/* Skills */
+.all_skills {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.skill {
+    border: 1px solid gray;
+    display: block;
+    border-radius: 6px;
+    text-align: justify;
+    margin: 50px;
+    padding: 10px;
+    width: 5in;
+    font-size: 20px;
+    box-shadow: 0 3px 10px gray;
+}
+
+    .skill img {
+        height: 50px;
+        align-items: center;
+    }
+
+.skills h6 {
+    font-size: 50px;
+    margin-block-start: 8px;
+    margin-block-end: 5px;
+    font-weight: 900;
+}
+
+.skills p {
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* qualifications */
+
+.qualifications-container {
+    justify-content: center;
+}
+
+    .qualifications-container hr {
+        border: 1px solid lightgray;
+        justify-content: center;
+    }
+
+.qualification-card {    
+    padding-bottom: 5px;
+}
+
+    .qualification-card h3 {
+        font-size: 25px;
+        margin-left: 30px;
+    }
+
+    .qualification-card li {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+/* work experience */
+
+.work_ex-container {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+    .work_ex-container hr {
+        border: 1px solid lightgray;
+        width: 75%;
+        margin-left: 5cm;
+    }
+
+.work_ex-card {
+    margin: 0 15px 15px 30px;
+    padding-bottom: 5px;
+}
+
+    .work_ex-card h3 {
+        font-size: 25px;
+        margin-left: 30px;
+    }
+
+    .work_ex-card h4 {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    .work_ex-card li {
+        font-size: 20px;
+        text-align: justify;
+        margin-left: 30px;
+    }
+
+/*Scroll container images*/
+div.scroll-container {
+    background-color: blue;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+    div.scroll-container img {
+        padding: 10px;
+    }
